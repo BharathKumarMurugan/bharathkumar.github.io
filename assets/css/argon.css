@@ -14263,8 +14263,8 @@ textarea[resize='horizontal'] {
 }
 
 .section-shaped .shape-style-1.shape-default {
-    /* background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%); */
-    background: linear-gradient(150deg, #00b09b, #96c93d);
+    background: linear-gradient(150deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
+    /* background: linear-gradient(150deg, #00b09b, #96c93d); */
 }
 
 .section-shaped .shape-style-1.shape-light {
@@ -15315,4 +15315,35 @@ html:not([dir='rtl']) .noUi-horizontal .noUi-handle {
 .input-slider-value-output.right:after {
     right: 10px;
     left: auto;
+}
+
+.navbar-bg-dark {
+    background: linear-gradient(30deg, #7795f8 15%, #6772e5 70%, #555abf 94%);
+}
+
+section#career-experience img#devops-img {
+    width: 100%;
+}
+
+.bg-exp-devops {
+    background: #8fb3c9;
+}
+
+.bg-exp-engineer {
+    background: #251e3f;
+}
+
+.bg-exp-intern {
+    background: #fee586;
+}
+
+.img-center.img-fluid.img-hobby {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50px;
+    opacity: 0.8;
+}
+
+.my-name {
+    font-size: 3rem;
 }
